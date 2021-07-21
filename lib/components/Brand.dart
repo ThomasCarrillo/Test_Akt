@@ -21,7 +21,7 @@ class BrandComponent extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         image: DecorationImage(
-          fit: BoxFit.contain,
+          fit: BoxFit.cover,
           image: AssetImage(imagePath),
         ),
       ),
